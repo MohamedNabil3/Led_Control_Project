@@ -151,5 +151,6 @@
 
 //Run Mode clock gating control
 #define SYSCTL_RCGC2_R  				(*((volatile unsigned long *)0x400FE108))
+#define SYSCTL_RCGCGPIO_R       (*((volatile unsigned long *)0x400FE608))
 
 #endif

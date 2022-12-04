@@ -25,7 +25,7 @@
 */
 
 static uint8 power_flag = 0;
-static uint8 duty_cycle;
+static uint8* duty_cycle;
 
 /***********************************************/
 
@@ -39,7 +39,8 @@ void SisTick_Start(void);
 void SisTick_Stop(void);
 static void (*SisTick_Cllback)(void);
 
-void Set_SisTick_Callback_ptr ( void(*ptr)(void) );// ptr to app layer function
+void Set_SisTick_Callback_ptr ( void(*ptr)(void));// ptr to app layer function
+void Set_SisTick_Callback_dutycycle ( uint8 * dutyCycle );
 
 /***********************************************/
 

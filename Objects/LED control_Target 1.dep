@@ -1,57 +1,79 @@
 Dependencies for Project 'LED control', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\Project_Files\MCAL\INT\INT_CTRL.c)(0x637D04C5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/int_ctrl.o -MD)
+F (.\Project_Files\MCAL\INT\INT_CTRL.c)(0x637D04C5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/int_ctrl.o -MD)
 I (Project_Files\MCAL\INT\INT_CTRL.h)(0x637BA620)
 I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
-I (Project_Files\Config\INT_CONFIG.h)(0x637CAC10)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
 I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
-F (.\Project_Files\MCAL\DIO\GPIO.c)(0x637D065F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/gpio.o -MD)
+F (.\Project_Files\MCAL\DIO\GPIO.c)(0x6387509F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpio.o -MD)
 I (Project_Files\MCAL\DIO\GPIO.h)(0x637CF182)
 I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
-I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x637A16CC)
-I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x637D055E)
-I (Project_Files\Config\INT_CONFIG.h)(0x637CAC10)
+I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x63824956)
+I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x63874F8C)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
 I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
-F (.\Project_Files\MCAL\SisTick\SisTick.c)(0x637D02C7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/sistick.o -MD)
-I (Project_Files\MCAL\SisTick\SisTick_CONFIG.h)(0x637D0221)
+F (.\Project_Files\MCAL\SisTick\SisTick.c)(0x63875EAE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/sistick.o -MD)
+I (Project_Files\MCAL\SisTick\SisTick_CONFIG.h)(0x63875998)
 I (Project_Files\MCAL\SisTick\SisTick_PRIVET.h)(0x637CD31C)
 I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
 I (Project_Files\MCAL\DIO\GPIO.h)(0x637CF182)
-I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x637A16CC)
-I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x637D055E)
-I (Project_Files\Config\INT_CONFIG.h)(0x637CAC10)
+I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x63824956)
+I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x63874F8C)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
 I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
-F (.\main.c)(0x637D059A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/main.o -MD)
-I (Project_Files\APP\main.h)(0x637CFE39)
+F (.\main.c)(0x63876170)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (Project_Files\APP\main.h)(0x63875A36)
 I (Project_Files\MCAL\INT\INT_CTRL.h)(0x637BA620)
 I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
-I (Project_Files\Config\INT_CONFIG.h)(0x637CAC10)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
 I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
 I (Project_Files\MCAL\DIO\GPIO.h)(0x637CF182)
-I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x637A16CC)
-I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x637D055E)
-I (Project_Files\HAL\LED\LED0.h)(0x637B5F8F)
-I (Project_Files\HAL\LED\LED0_Configuration.h)(0x637B5F86)
-I (Project_Files\MCAL\SisTick\SisTick_CONFIG.h)(0x637D0221)
+I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x63824956)
+I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x63874F8C)
+I (Project_Files\MCAL\SisTick\SisTick_CONFIG.h)(0x63875998)
 I (Project_Files\MCAL\SisTick\SisTick_PRIVET.h)(0x637CD31C)
-F (.\Project_Files\Config\INT_CONFIG.c)(0x637D03A7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/int_config.o -MD)
-I (Project_Files\Config\INT_CONFIG.h)(0x637CAC10)
+I (Project_Files\HAL\LED\LED0.h)(0x637B5F8F)
+I (Project_Files\HAL\LED\LED0_Configuration.h)(0x637B5F86)
+I (Project_Files\HAL\SW1\SW1.h)(0x638675E6)
+I (Project_Files\HAL\SW1\SW1_Config.h)(0x63873014)
+I (Project_Files\HAL\SW2\SW2.h)(0x63867634)
+I (Project_Files\HAL\SW2\SW2_Config.h)(0x63873178)
+F (.\Project_Files\Config\INT_CONFIG.c)(0x637D03A7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/int_config.o -MD)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
 I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
 I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
-F (.\Project_Files\HAL\LED\LED0.c)(0x637D04C4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/led0.o -MD)
+F (.\Project_Files\HAL\LED\LED0.c)(0x637D04C4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/led0.o -MD)
 I (Project_Files\HAL\LED\LED0.h)(0x637B5F8F)
 I (Project_Files\HAL\LED\LED0_Configuration.h)(0x637B5F86)
 I (Project_Files\MCAL\DIO\GPIO.h)(0x637CF182)
 I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
-I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x637A16CC)
-I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x637D055E)
-I (Project_Files\Config\INT_CONFIG.h)(0x637CAC10)
+I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x63824956)
+I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x63874F8C)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
 I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
-F (RTE\Device\TM4C1231H6PM\startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C1231H6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
-F (RTE\Device\TM4C1231H6PM\system_TM4C123.c)(0x637A2CB2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C1231H6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+F (.\Project_Files\HAL\SW1\SW1.c)(0x63873075)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/sw1.o -MD)
+I (Project_Files\HAL\SW1\SW1.h)(0x638675E6)
+I (Project_Files\HAL\SW1\SW1_Config.h)(0x63873014)
+I (Project_Files\MCAL\DIO\GPIO.h)(0x637CF182)
+I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
+I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x63824956)
+I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x63874F8C)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
+I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
+F (.\Project_Files\HAL\SW2\SW2.c)(0x63874AAB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/sw2.o -MD)
+I (Project_Files\HAL\SW2\SW2.h)(0x63867634)
+I (Project_Files\HAL\SW2\SW2_Config.h)(0x63873178)
+I (Project_Files\MCAL\DIO\GPIO.h)(0x637CF182)
+I (Project_Files\APP\STD_TYPES.h)(0x637A19C7)
+I (Project_Files\MCAL\DIO\DIO_Adresses.h)(0x63824956)
+I (Project_Files\MCAL\DIO\DIO_PRIVET.h)(0x63874F8C)
+I (Project_Files\Config\INT_CONFIG.h)(0x637D147F)
+I (Project_Files\MCAL\INT\PRIVET.h)(0x637B998D)
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x638736A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Project_Files/MCAL/INT -I ./Project_Files/APP -I ./Project_Files/Config -I ./Project_Files/MCAL/DIO -I ./Project_Files/HAL/LED -I ./Project_Files/MCAL/SisTick -I ./Project_Files/HAL/SW1 -I ./Project_Files/HAL/SW2-I./RTE/_Target_1-IC:/Users/moham/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/moham/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
 I (C:\Users\moham\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
-I (C:\Users\moham\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C1231H6PM.h)(0x550FE22C)
+I (C:\Users\moham\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\moham\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
 I (C:\Users\moham\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
 I (C:\Users\moham\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)

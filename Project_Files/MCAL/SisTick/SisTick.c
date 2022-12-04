@@ -5,7 +5,7 @@
 
 void SisTick_Init(uint8 power_on_duty_cycle){
     
-		duty_cycle = power_on_duty_cycle;
+		
 		//check intetupt status
 		#if (INT_STATUS == INT_ENABLE)
     NVIC_ST_CTRL_R |= (1<<1) ;
@@ -20,7 +20,10 @@ void SisTick_Init(uint8 power_on_duty_cycle){
 		#endif
 	
 		NVIC_ST_CURRENT_R = 0;
-    NVIC_ST_RELOAD_R=(16000000-(duty_cycle*16000000/100))-1;
+		if(power_on_duty_cycle<100 && power_on_duty_cycle>0){
+			//*duty_cycle = power_on_duty_cycle;
+    NVIC_ST_RELOAD_R=(16000000-((*duty_cycle)*16000000/100))-1;
+		}
 }
 
 //************************************************************
@@ -44,13 +47,13 @@ void SysTick_Handler(void){
 		if(power_flag==0){ //led was off
 			SisTick_Stop();
 			NVIC_ST_CURRENT_R = 0;
-			NVIC_ST_RELOAD_R=-(duty_cycle*16000000/100)-1;	 //time = (duty cycle*16000000/100)-1
+			NVIC_ST_RELOAD_R=((*duty_cycle)*16000000/100)-1;	 //time = (duty cycle*16000000/100)-1
 			power_flag^=1;		
 	}
 		else{		//led was on
 			SisTick_Stop();
 			NVIC_ST_CURRENT_R = 0;
-			NVIC_ST_RELOAD_R=(16000000-(duty_cycle*16000000/100))-1;	//((1-duty_cycle/100)*16000000)-1
+			NVIC_ST_RELOAD_R=(16000000-((*duty_cycle)*16000000/100))-1;	//((1-duty_cycle/100)*16000000)-1
 			power_flag^=1;
 	}
 	SisTick_Cllback();
@@ -64,3 +67,8 @@ void Set_SisTick_Callback_ptr ( void(*ptr)(void) ){
 	SisTick_Cllback = ptr;
 
 }
+
+ void Set_SisTick_Callback_dutycycle ( uint8 * dutyCycle ){
+ 
+ 	duty_cycle=dutyCycle;
+ }

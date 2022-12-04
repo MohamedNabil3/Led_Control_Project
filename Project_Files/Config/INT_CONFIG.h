@@ -33,8 +33,6 @@ typedef enum
 	yyy = 3
 }APINT_GROUPING;
 
-
-
 typedef enum
 {
 	PRIORITY_0 = 0,
